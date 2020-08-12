@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Graceland';
+    src: url('../fonts/Graceland.woff');
+}
+
+@font-face {
+    font-family: 'Stabillo-Medium';
+    src: url('../fonts/Stabillo-Medium.woff');
+}
+
+@font-face {
+    font-family: 'Kinsey';
+    src: url('../fonts/Kinsey.ttf');
+}
+
+@font-face{
+    font-family: 'OldLondon';
+    src: url('../fonts/OldLondon.ttf');
+}

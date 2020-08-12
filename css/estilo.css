@@ -1,0 +1,136 @@
+/*img
+    {
+        como centralizar as imagens
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }*/
+*{ /*aplica uma caracteristica para a pagina toda*/
+    font-family: 'Stabillo-Medium', sans-serif;
+}
+img{
+    width: 150px;
+}
+p{   
+    text-align: center;
+    text-shadow: 1px 1px black;
+    color: rgb(67,179,14);
+    font-size: 1.5em;
+}
+div{   /*usado para elencar divisorias*/
+    /* background-color: aquamarine; */
+    margin-bottom: 1rem;
+}
+.covid{  /* "ponto" é usado para abrir uma class */    
+    display: flex;
+    /* justify-content: space-between "distribuição dos elementos no espaço todo" */;
+    background-color: rgb(13, 255, 100);
+    text-shadow: 1px 1px black;
+    color: rgb(117,20,204);
+    border-style: solid;/*colocar borda*/
+    border-color: rgb(0, 17, 255);
+    margin-bottom: 30px;
+}
+.covid h1{
+    display: flex;
+    /* flex-direction: column; para ficar em colunas*/
+    /* justify-content: center; alinhamento horizontal */
+    align-items: center; /* alinhamento vertical */
+    padding: 40px; /* padding é margem interna e margin é margem externa */
+    font-size: 4rem;
+}
+.covid ul{
+    padding: 0;
+}
+#login{
+    font-size: 1.5rem;
+}
+#projeto{
+    background-image: url("../img/anjos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+}
+.cadastro{
+    background-image: url("../img/anjos.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+    padding-top: 2rem;
+}
+.cadastro-acolhido{
+    background-image: url("../img/acolhidoo.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+    padding-top: 2rem;
+
+}
+#textolabel{
+    font-size: 1rem;
+    text-shadow: 1px 1px black;
+    color: rgb(67,179,14);
+
+}
+#textolabelacolhido{
+    font-size: 1rem;
+    text-shadow: 1px 1px black;
+    color: rgb(117,20,204);
+
+}
+#segunda{
+    background-image: url("../img/acolhidoo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 25%;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    color: rgb(117,20,204);
+}
+#segunda p{
+    text-align: center;
+    text-shadow: 1px 1px black;
+    color: rgb(117,20,204);
+}
+#terceira{
+    background-image: url("../img/familia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 60%;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    color: rgb(117,20,204);
+}
+.familiascadastradas{
+    background-image: url("../img/familia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    color: rgb(67,179,14);
+
+}
+.bordaazul{
+    border-style: solid;/*colocar borda*/
+    border-radius: 2rem;
+    border-color: rgb(0, 17, 255);
+}
+.texto-centro{
+    text-align: center;
+    text-shadow: 1px 1px black;
+    color: rgb(67,179,14);  
+}
+#quarta{
+    background-color: rgb(13, 255, 100);
+
+}
+#quarta h1{
+    text-align: center;
+    text-shadow: 1px 1px black;
+    padding: 0; /* padding é margem interna e margin é margem externa */
+    margin: 0;
+    color: rgb(117,20,204);  
+}
+

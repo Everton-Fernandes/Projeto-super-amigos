@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro Acolhido</title>
+        <link href="css/fonts.css" rel="stylesheet">
+        <link href="css/estilo.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.css">
+    </head>
+
+    <body>
+        <nav class="covid row">
+            <ul class="col-md-9">
+                <h1>  
+<!-- class cria um estilo q pode ser aplicado em varias div e usa "espaço" para complementar com quantas outras class vc quiser-->
+                    <br>   
+                    <img src="img/baixados.png" alt="logo">
+                    Projeto Super Amigos
+                    <br>
+                </h1>
+            </ul>
+            <ul id="login" class="col-md-3">
+                <h2>
+                    Login 
+                </h2>
+                <form> <!--modelo padrão <form action="/action_page.php" target="_blank">-->
+                    <label>
+                        Username:
+                    </label>
+                    <input type="text">
+                    <label>
+                        Password:
+                    </label>
+                    <input type="password">
+                    <br>
+                    <input type="submit" value="Entrar">
+                </form>
+                
+                <h4>
+                    <a target="_blank" href="cadastro-anjo.html">Cadastrar como Anjo.</a> 
+                    <br>
+                    <a target="_blank" href="cadastro-acolhido.html">Cadastrar como Acolhidos.</a>
+                </h4>
+                      
+            </ul>
+        </nav>
+ 
+    
+    <div class="bordaazul cadastro-acolhido">
+        <form>
+            <div class="row">
+                <div class="col-md-2">
+                    <!-- nada, usei para centralizar-->
+                </div>
+                <div class="col-md-3">
+                    <input type="text" class="form-control" placeholder="Primeiro Nome">
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" placeholder="Sobrenome">
+                </div>
+            </div>
+            <div id="textolabelacolhido" class="row">
+                <div class="col-md-2">
+                    <!-- nada, usei para centralizar-->
+                </div>
+                <div class="col-md-4">
+                    <label for="Nascimento">Data de Nascimento</label>
+                    <input type="date" class="form-control">
+                </div>
+                <div class="col-md-1">
+                    <!-- nada, usei para centralizar-->
+                </div>
+                <div class="form-check">
+                    <br>
+                    <input class="form-check-input" type="radio" name="Masculino">
+                    <label class="form-check-label">
+                        Masculino
+                    </label>
+                    <br>
+                    <input class="form-check-input" type="radio" name="Feminino">
+                    <label class="form-check-label">
+                        Feminino
+                    </label>    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <!-- nada, usei para centralizar-->
+                </div>
+                <div class="col-md-4">
+                    <input class="form-control" type="tel" value="(DDD) Telefone">
+                </div>
+                <div class="form-group col-md-4">
+                    <input type="text" class="form-control" placeholder="CPF">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <!-- nada, usei para centralizar-->
+                </div>
+                <div class="col-md-8">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-2">
+                    <!-- nada, usei para centralizar-->
+                </div>
+
+                <div class="form-group col-md-2">
+                    <input type="text" class="form-control" placeholder="Username">
+                </div>
+                <div class="form-group col-md-3">
+                    <input type="password" class="form-control" placeholder="Password">
+                </div>
+                <div class="form-group col-md-3">
+                    <input type="password" class="form-control" placeholder="Confirm Password">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-2">
+                    <!-- nada, usei para centralizar-->
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Endereço">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-2">
+                    <!-- nada, usei para centralizar-->
+                </div>
+                <div class="form-group col-md-4">
+                    <input type="text" class="form-control" id="inputCity" placeholder="Cidade">
+                </div>
+                <div class="form-group col-md-2">
+                    <input type="text" class="form-control" placeholder="Estado">
+                </div>
+                <div class="form-group col-md-2">
+                    <input type="text" class="form-control" id="inputZip" placeholder="CEP">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <!-- nada, usei para centralizar-->
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary">
+                        Enviar
+                    </button>
+                </div>
+    
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>Desenvolvido por Everton Fernandes</p>
+    </footer>
+</body>
+</html>
